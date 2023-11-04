@@ -34,4 +34,10 @@ return require('packer').startup(function(use)
 	use 'simrat39/rust-tools.nvim'
 
 	use 'tpope/vim-dadbod'
+
+	use 'tpope/vim-commentary'
+
+	use 'nvim-lua/plenary.nvim'
+
+	use 'ThePrimeagen/harpoon'
 end)
