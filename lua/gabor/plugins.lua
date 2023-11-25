@@ -40,4 +40,7 @@ return require('packer').startup(function(use)
 	use 'nvim-lua/plenary.nvim'
 
 	use 'ThePrimeagen/harpoon'
+
+	use 'godlygeek/tabular'
+	use 'preservim/vim-markdown'
 end)

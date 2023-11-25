@@ -5,3 +5,6 @@ vim.opt.softtabstop = 2
 
 vim.opt.smartindent = true
 vim.opt.wrap = true
+
+vim.opt.clipboard = "unnamedplus"
+
