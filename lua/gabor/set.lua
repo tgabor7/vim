@@ -8,3 +8,4 @@ vim.opt.wrap = true
 
 vim.opt.clipboard = "unnamedplus"
 
+vim.cmd.colorscheme "catppuccin"

@@ -23,8 +23,6 @@ return require('packer').startup(function(use)
 
   use 'github/copilot.vim'
 
-	use 'ellisonleao/gruvbox.nvim'
-
   use 'nvim-treesitter/nvim-treesitter'
 
 	use 'tpope/vim-fugitive'
@@ -43,4 +41,11 @@ return require('packer').startup(function(use)
 
 	use 'godlygeek/tabular'
 	use 'preservim/vim-markdown'
+
+	use 'prettier/vim-prettier'
+	use 'lewis6991/gitsigns.nvim'
+
+  use 'psliwka/vim-smoothie'
+  use 'preservim/nerdtree'
+  use { 'catppuccin/nvim', as = 'catppuccin' }
 end)
