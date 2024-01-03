@@ -99,11 +99,6 @@ _G.packer_plugins = {
     path = "/home/gabor/.local/share/nvim/site/pack/packer/start/gitsigns.nvim",
     url = "https://github.com/lewis6991/gitsigns.nvim"
   },
-  ["gruvbox.nvim"] = {
-    loaded = true,
-    path = "/home/gabor/.local/share/nvim/site/pack/packer/start/gruvbox.nvim",
-    url = "https://github.com/ellisonleao/gruvbox.nvim"
-  },
   harpoon = {
     loaded = true,
     path = "/home/gabor/.local/share/nvim/site/pack/packer/start/harpoon",
@@ -169,6 +164,11 @@ _G.packer_plugins = {
     path = "/home/gabor/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
   },
+  undotree = {
+    loaded = true,
+    path = "/home/gabor/.local/share/nvim/site/pack/packer/start/undotree",
+    url = "https://github.com/mbbill/undotree"
+  },
   ["vim-commentary"] = {
     loaded = true,
     path = "/home/gabor/.local/share/nvim/site/pack/packer/start/vim-commentary",
@@ -178,6 +178,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/gabor/.local/share/nvim/site/pack/packer/start/vim-dadbod",
     url = "https://github.com/tpope/vim-dadbod"
+  },
+  ["vim-dadbod-ui"] = {
+    loaded = true,
+    path = "/home/gabor/.local/share/nvim/site/pack/packer/start/vim-dadbod-ui",
+    url = "https://github.com/kristijanhusak/vim-dadbod-ui"
   },
   ["vim-fugitive"] = {
     loaded = true,

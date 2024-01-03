@@ -31,8 +31,6 @@ return require('packer').startup(function(use)
 
 	use 'simrat39/rust-tools.nvim'
 
-	use 'tpope/vim-dadbod'
-
 	use 'tpope/vim-commentary'
 
 	use 'nvim-lua/plenary.nvim'
@@ -48,4 +46,7 @@ return require('packer').startup(function(use)
   use 'psliwka/vim-smoothie'
   use 'preservim/nerdtree'
   use { 'catppuccin/nvim', as = 'catppuccin' }
+  use 'tpope/vim-dadbod'
+	use 'kristijanhusak/vim-dadbod-ui'
+	use 'mbbill/undotree'
 end)
