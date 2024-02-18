@@ -154,10 +154,26 @@ _G.packer_plugins = {
     path = "/home/gabor/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
     url = "https://github.com/nvim-treesitter/nvim-treesitter"
   },
+  ["obsidian.nvim"] = {
+    config = { "\27LJ\2\n@\0\1\4\0\4\0\a6\1\0\0009\1\1\0019\1\2\0015\3\3\0>\0\2\3B\1\2\1K\0\1\0\1\2\0\0\rxdg-open\rjobstart\afn\bvimÁ\1\1\0\5\0\t\0\0156\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\5\0004\3\3\0005\4\3\0>\4\1\0035\4\4\0>\4\2\3=\3\6\0023\3\a\0=\3\b\2B\0\2\1K\0\1\0\20follow_url_func\0\15workspaces\1\0\0\1\0\2\tname\twork\tpath\18~/vaults/work\1\0\2\tname\rpersonal\tpath\22~/vaults/personal\nsetup\robsidian\frequire\0" },
+    loaded = true,
+    path = "/home/gabor/.local/share/nvim/site/pack/packer/start/obsidian.nvim",
+    url = "https://github.com/epwalsh/obsidian.nvim"
+  },
+  ["oil.nvim"] = {
+    loaded = true,
+    path = "/home/gabor/.local/share/nvim/site/pack/packer/start/oil.nvim",
+    url = "https://github.com/stevearc/oil.nvim"
+  },
   ["plenary.nvim"] = {
     loaded = true,
     path = "/home/gabor/.local/share/nvim/site/pack/packer/start/plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
+  },
+  ["rest.nvim"] = {
+    loaded = true,
+    path = "/home/gabor/.local/share/nvim/site/pack/packer/start/rest.nvim",
+    url = "https://github.com/rest-nvim/rest.nvim"
   },
   ["rust-tools.nvim"] = {
     loaded = true,
@@ -199,6 +215,11 @@ _G.packer_plugins = {
     path = "/home/gabor/.local/share/nvim/site/pack/packer/start/vim-fugitive",
     url = "https://github.com/tpope/vim-fugitive"
   },
+  ["vim-http-client"] = {
+    loaded = true,
+    path = "/home/gabor/.local/share/nvim/site/pack/packer/start/vim-http-client",
+    url = "https://github.com/aquach/vim-http-client"
+  },
   ["vim-markdown"] = {
     loaded = true,
     path = "/home/gabor/.local/share/nvim/site/pack/packer/start/vim-markdown",
@@ -214,6 +235,11 @@ _G.packer_plugins = {
     path = "/home/gabor/.local/share/nvim/site/pack/packer/start/vim-smoothie",
     url = "https://github.com/psliwka/vim-smoothie"
   },
+  ["vim-test"] = {
+    loaded = true,
+    path = "/home/gabor/.local/share/nvim/site/pack/packer/start/vim-test",
+    url = "https://github.com/vim-test/vim-test"
+  },
   ["vim-tmux-navigator"] = {
     loaded = true,
     path = "/home/gabor/.local/share/nvim/site/pack/packer/start/vim-tmux-navigator",
@@ -222,6 +248,10 @@ _G.packer_plugins = {
 }
 
 time([[Defining packer_plugins]], false)
+-- Config for: obsidian.nvim
+time([[Config for obsidian.nvim]], true)
+try_loadstring("\27LJ\2\n@\0\1\4\0\4\0\a6\1\0\0009\1\1\0019\1\2\0015\3\3\0>\0\2\3B\1\2\1K\0\1\0\1\2\0\0\rxdg-open\rjobstart\afn\bvimÁ\1\1\0\5\0\t\0\0156\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\5\0004\3\3\0005\4\3\0>\4\1\0035\4\4\0>\4\2\3=\3\6\0023\3\a\0=\3\b\2B\0\2\1K\0\1\0\20follow_url_func\0\15workspaces\1\0\0\1\0\2\tname\twork\tpath\18~/vaults/work\1\0\2\tname\rpersonal\tpath\22~/vaults/personal\nsetup\robsidian\frequire\0", "config", "obsidian.nvim")
+time([[Config for obsidian.nvim]], false)
 
 _G._packer.inside_compile = false
 if _G._packer.needs_bufread == true then

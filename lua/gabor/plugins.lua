@@ -20,6 +20,7 @@ return require('packer').startup(function(use)
     }
   }
   use 'github/copilot.vim'
+  use 'rest-nvim/rest.nvim'
   use 'nvim-treesitter/nvim-treesitter'
 	use 'tpope/vim-fugitive'
   use 'nvim-lualine/lualine.nvim'
@@ -40,4 +41,35 @@ return require('packer').startup(function(use)
 	use 'numToStr/Comment.nvim'
 	use 'christoomey/vim-tmux-navigator'
 	use 'kdheepak/lazygit.nvim'
+	use 'vim-test/vim-test'
+  use 'stevearc/oil.nvim'
+  use 'aquach/vim-http-client'
+  use({
+					"epwalsh/obsidian.nvim",
+					tag = "*",  -- recommended, use latest release instead of latest commit
+					requires = {
+						-- Required.
+						"nvim-lua/plenary.nvim",
+
+						-- see below for full list of optional dependencies 👇
+					},
+					config = function()
+						require("obsidian").setup({
+							workspaces = {
+								{
+									name = "personal",
+									path = "~/vaults/personal",
+								},
+								{
+									name = "work",
+									path = "~/vaults/work",
+								},
+							},
+				     follow_url_func = function(url)
+								vim.fn.jobstart({"xdg-open", url})  -- linux
+								end,
+							-- see below for full list of options 👇
+						})
+					end,
+})
 end)

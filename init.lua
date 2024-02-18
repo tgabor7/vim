@@ -1,4 +1,4 @@
 require("gabor")
 
-vim.g.copilot_filetypes = {yaml = true}
+vim.g.copilot_filetypes = {yaml = true, markdown = true}
 
